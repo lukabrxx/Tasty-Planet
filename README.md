@@ -34,3 +34,12 @@ Server
 Client
 
         
+## mongoose functions
+    ## find Finds documents. 
+    Mongoose casts the filter to match the model's schema before the command is sent. See our query casting tutorial for more information on how Mongoose casts filter. 
+
+    ## sort Sets the sort order 
+    If an object is passed, values allowed are asc, desc, ascending, descending, 1, and -1.
+
+    ## limit Specifies the maximum number of documents the query will return.
+
